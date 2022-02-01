@@ -1,0 +1,364 @@
+PDA Version : G986USQS2DUJ7
+CSC Version : G986UOYN2DUJ7
+Sales Code : TMB
+CSC Edition : ED0006
+
+----- Verify Compare Result for Customer.xml -----
+No Fail
+-------- Unsupported items --------
+Settings/Connections/Profile/Auth
+Settings/Connections/Profile/Editable
+Settings/Connections/Profile/IpVersion
+Settings/Connections/Profile/MTUSize
+Settings/Connections/Profile/NetworkName
+Settings/Connections/Profile/PSparam/APN
+Settings/Connections/Profile/ProfileName
+Settings/Connections/Profile/Protocol
+Main Settings/Phone Settings/Emergence Call Number
+Main Settings/Phone Settings/Emergence Call Number(NoSIM)
+Main Settings/Phone/DateTimeFormat/DateFormat
+Main Settings/Phone Settings/Setting/Phone Language
+Main Settings/Phone Settings/Setting/Phone Language(No SIM)
+Main Settings/Sound Settings/AMR Voice Codec
+Messages/MMS/MMSView/MessageUaProfUrl
+Messages/MMS/MMSView/MessageUserAgent
+Messages/MMS/MMSView/NetworkName
+-------- Unused items --------
+GeneralInfo.NetworkInfo.NWID
+Settings.ActiveSync.Signature
+Settings.BT.Activation
+Settings.BT.Visibility
+Settings.Browser.Bookmark.Editable
+Settings.Browser.Bookmark.Index
+Settings.Browser.Bookmark.NetworkName
+Settings.Browser.CookieOption
+Settings.Browser.HistoryList
+Settings.Browser.eManual.URL
+Settings.Connections.Profile.Bearer
+Settings.Connections.Profile.Proxy.EnableFlag
+Settings.Connections.ProfileHandle.NetworkName
+Settings.Connections.ProfileHandle.ProfBrowser
+Settings.Connections.ProfileHandle.ProfIMS
+Settings.Connections.ProfileHandle.ProfMMS
+Settings.Connections.ProfileHandle.ProfXCAP
+Settings.Main.Network.FastDormancy.LCDStatus
+Settings.Main.Network.FastDormancy.NetworkName
+Settings.Main.Network.WbAmr.NetworkName
+Settings.Main.Phone.ContinuousInput
+Settings.Main.Security.OneSIMLock
+Settings.Main.Sound.PowerOnTone.FileType
+Settings.Main.Sound.RingTone.FileType
+Settings.Main.Sound.RingTone.Position
+Settings.Messages.MMS.MMSVersion
+-------- New or unidentified items --------
+GeneralInfo.NetworkInfo.SkipCscSelection
+Settings.Connections.Profile.EnableStatus
+Settings.Connections.Profile.Skip464XLAT
+Settings.Main.Network.FastDormancy.FastDormancyEnableStatus
+Settings.Main.Security.SeparateLock
+Settings.Messages.SMS.FontSizeByVolumeKey
+--------- Verify Log ---------
+Pass;GeneralInfo.CSCEdition;ED0006
+Pass;GeneralInfo.Region;NA
+Pass;GeneralInfo.SalesCode;TMB
+Pass;GeneralInfo.Country;USA
+Pass;GeneralInfo.CountryISO;US
+Pass;Settings.Connections.URL;CscFeatureTagWeb_SetHomepageURL: enabled, please compare homepage url manually. xml : http://ml.t-mobile.com
+Pass;Settings.Browser.Bookmark.NetworkName;NetworkName pass
+Pass;Settings.Browser.Bookmark.BookmarkName;0) BookmarkName: The Source
+Pass;Settings.Browser.Bookmark.URL;0) URL: http://how-to.t-mobile.com
+Pass;Settings.Browser.Bookmark.Editable;editable pass
+Pass;Settings.Browser.Bookmark.BookmarkName;1) BookmarkName: Galaxy Shop
+Pass;Settings.Browser.Bookmark.URL;1) URL: https://www.samsung.com/us/mobile/phones/all-phones/?cid=us_ow_app_s-internet_none_none_bookmark_bookmark_202008_none
+Pass;Settings.Browser.Bookmark.Editable;editable pass
+Pass;Settings.Browser.Bookmark.BookmarkName;0) BookmarkName: The Source
+Pass;Settings.Browser.Bookmark.URL;0) URL: http://how-to.t-mobile.com
+Pass;Settings.Browser.Bookmark.BookmarkName;1) BookmarkName: Galaxy Shop
+Pass;Settings.Browser.Bookmark.URL;1) URL: https://www.samsung.com/us/mobile/phones/all-phones/?cid=us_ow_app_s-internet_none_none_bookmark_bookmark_202008_none
+Pass;GeneralInfo.NetworkInfo.MCCMNC;00101
+Pass;GeneralInfo.NetworkInfo.NetworkName;Anritsu
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310160
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310200
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310210
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310220
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310230
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310240
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310250
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310260
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310270
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310310
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310490
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310660
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310800
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;544D
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;99999
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310160
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310200
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310210
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310220
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310230
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310240
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310250
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310260
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310270
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310310
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310490
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310660
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310800
+Pass;GeneralInfo.NetworkInfo.NetworkName;T-Mobile
+Pass;GeneralInfo.NetworkInfo.CodeType;null
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;null
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310160
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310200
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310210
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310220
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310230
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310240
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310250
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310260
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310270
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310310
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310490
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310660
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;GeneralInfo.NetworkInfo.MCCMNC;310800
+Pass;GeneralInfo.NetworkInfo.NetworkName;Metro
+Pass;GeneralInfo.NetworkInfo.CodeType;HEX
+Pass;GeneralInfo.NetworkInfo.SubsetCode;null
+Pass;GeneralInfo.NetworkInfo.SPCode;6D38
+Pass;GeneralInfo.NetworkInfo.SPName;null
+Pass;Settings.Main.Network.WbAmr.NetworkName;310160#310200#310210#310220#310230#310240#310250#310260#310270#310310#310490#310660#310800#99999#310160#310200#310210#310220#310230#310240#310250#310260#310270#310310#310490#310660#310800#
+Pass;Settings.Main.Network.WbAmr.WbAmrCodec;310160#310200#310210#310220#310230#310240#310250#310260#310270#310310#310490#310660#310800#99999#310160#310200#310210#310220#310230#310240#310250#310260#310270#310310#310490#310660#310800#
+Pass;Settings.FOTA.NetworkName;No SIM
+Pass;Settings.FOTA.FotaBearer;NORMAL
+Pass;Settings.Messages.SMS.MsgTypeThreshold.ThresholdValue;12
+Pass;Settings.Messages.SMS.MaxRecipient;20
+Pass;Settings.Messages.SMS.CharSupport;automatic
+Pass;Settings.Messages.SMS.DeleteOldMessage;off
+Pass;Settings.Messages.SMS.DeleteOldMessageCntSms;200
+Pass;Settings.Messages.SMS.DeleteOldMessageCntMms;20
+Pass;Settings.Messages.SMS.PreviewMessage;on
+Pass;Settings.Messages.MMS.MmsSending.ImageResizeResolution;uxga
+Pass;Settings.Messages.MMS.MmsSending.ReqDeliveryRep;off
+Pass;Settings.Messages.MMS.MmsSending.ReqReadRep;off
+Pass;Settings.Messages.MMS.MmsSending.MessageSize;1m
+Pass;Settings.Messages.MMS.MmsSending.MaxRecipientMMS;20
+Pass;Settings.Main.Sound.MsgToneAlertType;vibmelody
+Pass;Settings.Messages.MMS.GroupMessaging;on
+Pass;Settings.Main.Phone.DateTimeFormat.TimezoneUpdate;on
+Pass;Settings.Main.Phone.DateTimeFormat.TimeFormat;12h
+-------- Customer.xml Summary --------
+Browser.Bookmark : 11P/11, 0F
+Connections.URL : 1P/1, 0F
+FOTA.FotaBearer : 1P/1, 0F
+FOTA.NetworkName : 1P/1, 0F
+GeneralInfo.CSCEdition : 1P/1, 0F
+GeneralInfo.Country : 1P/1, 0F
+GeneralInfo.CountryISO : 1P/1, 0F
+GeneralInfo.NetworkInfo : 246P/246, 0F
+GeneralInfo.Region : 1P/1, 0F
+GeneralInfo.SalesCode : 1P/1, 0F
+Main.Network : 2P/2, 0F
+Main.Phone : 2P/2, 0F
+Main.Sound : 1P/1, 0F
+Messages.MMS : 6P/6, 0F
+Messages.SMS : 7P/7, 0F
+Total : 283P/283, 0F
+
+--------- Verify Result (Only for developer) ---------
+FAIL : CONTACTS/SDCONTENTS[/sdcard/DCIM/Screenshots/Screenshot_20220103-042134_MTK Engineering Mode Start.jpg][/sdcard/DCIM/Screenshots/Screensh/CALENDAR
+
